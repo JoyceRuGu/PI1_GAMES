@@ -8,7 +8,7 @@ from sklearn.metrics.pairwise        import cosine_similarity
 from sklearn.metrics.pairwise        import linear_kernel
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-Df_muestra = pd.read_parquet('Df_muestra.parquet')
+Df_muestra = pd.read_parquet('Df_Muestra.parquet')
 # Se crea una muestra de 5000 datos para poder realizar las consultas
 Df_muestra = Df_muestra.head(2000)
 app = FastAPI()
