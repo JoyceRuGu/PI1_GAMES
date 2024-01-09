@@ -1,0 +1,6 @@
+fastAPI
+uvicorn
+pandas
+scikit-learn
+pyarrow
+fastparquet
